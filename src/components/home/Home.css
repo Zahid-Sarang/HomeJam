@@ -25,7 +25,8 @@
     180deg,
     rgba(5, 11, 20, 0.28) 0%,
     rgba(1, 13, 32, 0.69) 67.53%,
-    #0a0b1a 85.33%
+    #0a0b1a 85.33%,
+    #000
   );
 }
 .home .home__img {
@@ -65,4 +66,10 @@
   line-height: 32px;
   color: #FFFFFF;
   opacity: 0.6;
+}
+
+.home_list{
+  margin-top: 8rem;
+  display: flex;
+
 }

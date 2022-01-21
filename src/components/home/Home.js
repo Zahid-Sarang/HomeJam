@@ -1,8 +1,11 @@
 import React from "react";
+import LabelList from './LabelList';
 
-import {labelData} from "../../ConstentData";
 import "./Home.css";
 import Background from "../../assest/background_image.png";
+import vector from '../../assest/Vector.png'
+import list from '../../assest/list.png'
+import star from '../../assest/start.png'
 
 const Home = () => {
   return (
@@ -18,6 +21,13 @@ const Home = () => {
             and never miss out.
           </p>
         </div>
+        <div className="home_list">
+        <LabelList img={vector} count='0' label='Label' classname='labelList__cricle' />
+        <LabelList img={list } count='0' label='Label' classname='labelList__cricle_option' star={star} />
+        <LabelList img={list } count='0' label='Label' classname='labelList__cricle_option'  star={star} />
+        <LabelList img={list } count='0' label='Label' classname='labelList__cricle_option'  star={star} />
+        </div>
+        
       </div>
     </section>
   );

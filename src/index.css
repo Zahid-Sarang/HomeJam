@@ -3,6 +3,7 @@
   padding:0;
   box-sizing: border-box;
   font-family: Libre BAskerville;
+  
 }
 html{
   font-size: 62.5%;
@@ -20,6 +21,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
