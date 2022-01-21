@@ -1,0 +1,68 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.home:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  z-index: 1;
+}
+.home:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(
+    180deg,
+    rgba(5, 11, 20, 0.28) 0%,
+    rgba(1, 13, 32, 0.69) 67.53%,
+    #0a0b1a 85.33%
+  );
+}
+.home .home__img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 1px;
+  top: -2px;
+}
+
+.home .home__content {
+  position: absolute;
+  margin-top: 20rem;
+
+  margin-left: 15rem;
+  /* transform: translate(-50%, -50%); */
+  z-index: 10000;
+}
+
+.home .home__content .home__Cari {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 5rem;
+  line-height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.home .home__contentText {
+  width: 611px;
+  height: 64px;
+  margin-top: 4rem;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 32px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}

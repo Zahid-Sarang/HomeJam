@@ -1,6 +1,17 @@
 *{
   margin: 0;
   padding:0;
+  box-sizing: border-box;
+  font-family: Libre BAskerville;
+}
+html{
+  font-size: 62.5%;
+}
+a{
+  list-style: none;
+}
+li{
+  list-style: none;
 }
 body {
   margin: 0;
