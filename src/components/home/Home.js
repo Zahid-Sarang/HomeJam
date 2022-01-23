@@ -1,7 +1,10 @@
 import React from "react";
+import "./Home.css";
+
+// importing components
 import LabelList from './LabelList';
 
-import "./Home.css";
+// importing images
 import Background from "../../assest/background_image.png";
 import vector from '../../assest/Vector.png'
 import list from '../../assest/list.png'
@@ -10,6 +13,7 @@ import star from '../../assest/start.png'
 const Home = () => {
   return (
     <section className="home">
+    {/* background Image */}
       <img src={Background} alt="background_Image" className="home__img" />
       <div className="home__content">
         <div className="home__Cari">

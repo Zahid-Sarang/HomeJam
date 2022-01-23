@@ -1,4 +1,6 @@
 import React from 'react';
+
+// importing component
 import './LabelList.css'
 const LabelList = ({img,count,label,classname,star}) => {
   return(
@@ -13,7 +15,7 @@ const LabelList = ({img,count,label,classname,star}) => {
             
            { star && <img src={star} alt='star' className='labelList_star'/>}
             <span className='labelList__count'>{count}</span>
-            <p style={{color:'#000', opacity: 0.6,fontSize:'1.5rem'}}>{label}</p>
+            <p style={{color:'#fff', opacity: 0.6,fontSize:'1.5rem'}}>{label}</p>
         </div>
     </div>
 
